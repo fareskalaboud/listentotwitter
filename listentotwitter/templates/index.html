@@ -5,16 +5,18 @@
 {% endblock %}
 
 {% block content %}
-<div class="container" style="text-align:center">
+<div class="container">
     <h1>ListenToTwitter</h1>
     <br>
-    <h3 id="homepage">Twitter Plays Piano.</h3>
+    <h3>Twitter Plays Piano.</h3>
     <br>
-    <p id="homepage"><strong>ListenToTwitter takes every tweet about a given keyword, hashtag or username. <br> It analyses the mood of that tweet, then maps various emotions to a range of musical notes.</strong></p>
+    <p><strong>ListenToTwitter takes every tweet about a given keyword, hashtag or username. <br> It analyses the mood of that tweet, then maps various emotions to a range of musical notes.</strong></p>
 
     <div class="form-group">
         <div class="col-sm-10">
-            <input class="form-control" size="30" id="focusedInput" type="text" placeholder="Enter your keyword here.">
+            <span>
+                <input class="form-control" size="30" id="focusedInput" type="text" placeholder="Enter your keyword here.">
+            </span>
         </div>
         <br><br>
         <p><a id="go_button" class="btn btn-primary" style="text-align:right">  Make some music!  </a></p>
