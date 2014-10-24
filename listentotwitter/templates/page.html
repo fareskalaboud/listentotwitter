@@ -8,12 +8,24 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
         <script type="text/javascript" src="{{ url_for('static', filename='js/3rdparty/jquery-1.11.1.min.js') }}"></script>
+        <script type="text/javascript" src="../static/js/landing.js"></script>
 
         {% block head %}{% endblock %}
     </head>
 
     <body>
-        {% block content %}{% endblock %}
+        <!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/3rdparty/cerulean-bootstrap.min.css">
+</head>
+<title>ListenToTwitter</title>
+
+<h1>ListenToTwitter</h1>
+<p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+<p><small>This line of text is meant to be treated as fine print.</small></p>
+<p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+<p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+<p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
 
         <a href="https://github.com/musalbas/listentotwitter" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="{{ url_for('static', filename='img/forkme_right_gray_6d6d6d.png') }}" alt="Fork me on GitHub"></a>
     </body>

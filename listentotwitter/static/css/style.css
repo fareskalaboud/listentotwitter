@@ -27,3 +27,8 @@
 .table > tfoot > tr.super-success > th {
     background-color: #8dda9a;
 }
+
+.p {
+    margin-left: auto;
+    margin-right: auto;
+}
